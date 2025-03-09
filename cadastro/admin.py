@@ -1,3 +1,7 @@
 from django.contrib import admin
 
-# Register your models here.
+from cadastro.models import Escola, Profissional
+
+
+admin.site.register(Escola)
+admin.site.register(Profissional)
